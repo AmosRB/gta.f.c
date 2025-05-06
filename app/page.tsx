@@ -1,14 +1,17 @@
 export default function Home() {
   return (
     <div className="container">
-      <div className="hero">
-        <header>
-          <h1>מתחילים מחדש 🚀</h1>
-          <nav>
-            <a href="#about">אודות</a> | <a href="#features">פיצ'רים</a> | <a href="#contact">צור קשר</a>
-          </nav>
-        </header>
-      </div>
+   <div className="hero">
+  <img src="/hero.jpg" alt="Hero" />
+  <header>
+    <h1>מתחילים מחדש 🚀</h1>
+    <nav>
+      <a href="#about">אודות</a> | <a href="#features">פיצ'רים</a> | <a href="#contact">צור קשר</a>
+    </nav>
+  </header>
+</div>
+
+
 
       <section id="about">
         <h2>אודות</h2>
