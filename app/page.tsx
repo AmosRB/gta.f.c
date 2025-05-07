@@ -4,9 +4,9 @@ export default function Home() {
    <div className="hero">
   <img src="/hero.jpg" alt="Hero" />
   <header>
-    <h1>מתחילים מחדש 🚀</h1>
+    <h1>The Miami Popular Salvation Front</h1>
     <nav>
-      <a href="#about">אודות</a> | <a href="#features">פיצ'רים</a> | <a href="#contact">צור קשר</a>
+      <a href="#about">CAUSE</a> | <a href="#features">TOKEN</a> | <a href="#contact">TEAM</a>
     </nav>
   </header>
 </div>
@@ -14,23 +14,27 @@ export default function Home() {
 
 
       <section id="about">
-        <h2>אודות</h2>
-        <p>ברוכים הבאים לאתר שלנו! כאן תמצאו מידע עלינו ומה שאנחנו עושים.</p>
+        <h2>THE CAUSE</h2>
+        <p>We, the good citizens of the city of Miami,
+          are taking on the fight against the bad image
+          that gaming companies are giving our city.</p>
       </section>
 
       <section id="features">
-        <h2>פיצ'רים</h2>
-        <p>אנחנו מציעים המון גרפיקה, אנימציות קטנות וחוויית משתמש מדהימה.</p>
+        <h2>THE TOKEN</h2>
+        <p>Our token takes on the race against all the dirty
+          gaming coins that defame our good city.</p>
       </section>
 
       <section id="contact">
-        <h2>צור קשר</h2>
-        <p>נשמח לשמוע מכם! מלאו את הטופס או שלחו לנו מייל.</p>
-        <a href="mailto:contact@example.com" className="button">שלח מייל</a>
+        <h2>THE TEAM</h2>
+        <p>Our team is a collection of good people and professionals
+          who are willing to sacrifice for the good name of Miami.</p>
+        <a href="mailto:contact@example.com" className="button">TEAM</a>
       </section>
 
       <footer>
-        <p>&copy; 2025 האתר שלי - כל הזכויות שמורות</p>
+        <p>&copy; 2025 The Association for Saving the Good Name of Miami - 133 Atlantic Boulevard, Miami</p>
       </footer>
     </div>
   );

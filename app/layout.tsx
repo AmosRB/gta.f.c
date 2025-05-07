@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "אתר רספונסיבי חדש",
-  description: "גרסה בלי Tailwind, עם גלילה ארוכה",
+  title: "HERO",
+  description: "Non Tailwind",
 };
 
 export default function RootLayout({
@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="he">
+    <html lang="en">
       <body>
         {children}
       </body>
